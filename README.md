@@ -19,7 +19,7 @@ Each view is represented as a flat JSON object with four primary sections:
   "constraint": { ... },
   "ui": { ... }
 }
-```json
+```
 
 Example json will be
 
