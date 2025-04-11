@@ -204,7 +204,7 @@ fun renderComponent(json: JsonObject): @Composable () -> Unit {
 
 ### Text Renderer example
 
-``kotlin
+```kotlin
 class TextRenderer : ViewRenderer {
     override fun canHandle(type: String) = type == "Text"
 
@@ -226,6 +226,7 @@ class TextRenderer : ViewRenderer {
 ```
 
 ### Epoxy Integration (Temporary)
+
 ```kotlin
 ViewType.VIEW_TYPE_COMPOSE_VIEW -> {
     widgetComposeView {
@@ -314,4 +315,3 @@ Display in UI
                                      +----------------------+     +------------------+
 ```
 
-> ⚠️ Note: We mostly use `JsonObject` instead of typed data classes to avoid rigid models and maintain flexibility.
